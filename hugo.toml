@@ -1,6 +1,6 @@
 # Change baseURL to your GitHub Pages address (the deploy workflow overrides it automatically).
 baseURL = "https://kaidenpollesch.com/"
-languageCode = "en-us"
+locale = "en-us"
 title = "Kaiden Pollesch"
 disableKinds = ["taxonomy", "term", "RSS"]
 
