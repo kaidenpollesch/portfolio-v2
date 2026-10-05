@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <rect width="32" height="32" fill="#2D2B27"/>
+
+    <!-- K -->
+    <path d="M5 5V27M5 16L15 5M5 16L15 27"
+          fill="none"
+          stroke="#ede4e1"
+          stroke-width="3"
+          stroke-linecap="square"
+          stroke-linejoin="miter"/>
+
+    <!-- P -->
+    <path d="M18 27V5H24C27 5 28 7 28 10C28 13 27 15 24 15H18"
+          fill="none"
+          stroke="#9a0303"
+          stroke-width="3"
+          stroke-linecap="square"
+          stroke-linejoin="miter"/>
+
+</svg>

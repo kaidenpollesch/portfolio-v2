@@ -1,0 +1,12 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+
+<h2>Employment History</h2>
+{{ partial "timeline.html" (where .Pages "Params.type" "employment") }}
+
+<hr>
+
+<h2>Education</h2>
+{{ partial "timeline.html" (where .Pages "Params.type" "education") }}
+{{ end }}

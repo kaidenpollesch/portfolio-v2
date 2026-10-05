@@ -1,0 +1,9 @@
+<footer class="site">
+  <div class="wrap foot">
+    <div class="foot-left">
+      <p>Copyright &copy; {{ now.Year }} {{ site.Params.author }}</p>
+      <p>{{ partial "links.html" . }}</p>
+    </div>
+    {{ with site.Params.footerSnippet }}<p class="foot-right">{{ . }}</p>{{ end }}
+  </div>
+</footer>

@@ -1,0 +1,4 @@
+{{- range $i, $l := site.Params.links -}}
+{{- if $i }} <span class="sep">|</span> {{ end -}}
+<a href="{{ $l.url }}" target="_blank" rel="noopener noreferrer">{{ $l.name }}</a>
+{{- end -}}
