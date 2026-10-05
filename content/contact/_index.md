@@ -8,7 +8,7 @@ kaidenpollesch[at]gmail[dot]com
 
 ## LinkedIn
 
-Feel free to message me on [inkedIn](https://www.linkedin.com/in/kaidenpollesch/). 
+Feel free to message me on [LinkedIn](https://www.linkedin.com/in/kaidenpollesch/). 
 To prevent phone spam I do not share my phone number, but feel free to reach out via email or LinkedIn to schedule a call.
 
 ## Resume
