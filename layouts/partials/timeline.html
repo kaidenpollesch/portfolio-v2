@@ -1,0 +1,9 @@
+{{ range .ByDate.Reverse }}
+<article class="entry">
+  <h3>{{ .Title }}{{ with .Params.organization }}, {{ . }}{{ end }}</h3>
+  <p class="meta">{{ .Date.Format "Jan 2006" }} &ndash; {{ .Params.end | default "Present" }}{{ with .Params.location }} | {{ . }}{{ end }}</p>
+  {{ .Content }}
+</article>
+{{ else }}
+<p>Nothing here yet.</p>
+{{ end }}

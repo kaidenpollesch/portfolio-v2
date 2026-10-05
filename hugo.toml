@@ -1,0 +1,47 @@
+# Change baseURL to your GitHub Pages address (the deploy workflow overrides it automatically).
+baseURL = "https://kaidenpollesch.com/"
+languageCode = "en-us"
+title = "Kaiden Pollesch"
+disableKinds = ["taxonomy", "term", "RSS"]
+
+[params]
+  author = "Kaiden Pollesch"
+  # Shown on the welcome page under your name.
+  description = "Software Engineering, Cybersecurity"
+  # Small line in the footer of every page.
+  footerSnippet = "Matthew 6:19-34"
+
+  # Edit these once: they show up on the welcome page and in every footer.
+  [[params.links]]
+    name = "GitHub"
+    url = "https://github.com/kaidenpollesch"
+  [[params.links]]
+    name = "GitLab"
+    url = "https://gitlab.com/kaidenpollesch"
+  [[params.links]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/kaidenpollesch/"
+  [[params.links]]
+    name = "Handshake"
+    url = "https://app.joinhandshake.com/profiles/kaidenpollesch"
+
+[[menus.main]]
+  name = "about/"
+  pageRef = "/about"
+  weight = 10
+[[menus.main]]
+  name = "expertise/"
+  pageRef = "/expertise"
+  weight = 20
+[[menus.main]]
+  name = "projects/"
+  pageRef = "/projects"
+  weight = 30
+[[menus.main]]
+  name = "experience/"
+  pageRef = "/experience"
+  weight = 40
+[[menus.main]]
+  name = "contact/"
+  pageRef = "/contact"
+  weight = 50

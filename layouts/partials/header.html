@@ -1,0 +1,14 @@
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="{{ "/" | relURL }}">{{ site.Title }}</a>
+    <nav class="nav-wide" aria-label="Main">
+      {{ partial "nav-links.html" . }}
+    </nav>
+    <details class="nav-narrow">
+      <summary>directories</summary>
+      <nav aria-label="Main">
+        {{ partial "nav-links.html" . }}
+      </nav>
+    </details>
+  </div>
+</header>

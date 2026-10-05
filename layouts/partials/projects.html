@@ -1,0 +1,12 @@
+{{ range .ByDate.Reverse }}
+{{ $title := .Title }}
+<article class="entry">
+  <h3>{{ with .Params.link }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $title }}</a>{{ else }}{{ $title }}{{ end }}</h3>
+  <p class="meta">{{ .Date.Format "Jan 2006" }}</p>
+  <p><strong>TL;DR:</strong> {{ .Params.tldr }}</p>
+  {{ with .Params.tech }}<p><strong>Technologies:</strong> {{ delimit . ", " }}</p>{{ end }}
+  {{ .Content }}
+</article>
+{{ else }}
+<p>Nothing here yet.</p>
+{{ end }}

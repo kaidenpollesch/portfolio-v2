@@ -1,0 +1,6 @@
+{{ define "main" }}
+<h1>{{ site.Title }}</h1>
+<p>{{ site.Params.description }}</p>
+{{ .Content }}
+<p>{{ partial "links.html" . }}</p>
+{{ end }}
